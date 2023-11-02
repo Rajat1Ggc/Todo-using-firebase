@@ -15,7 +15,7 @@ const Todo = ({ todo }) => {
       <li className={style.li}>
         <div className={style.row}>
           <input type="checkbox" className={style.checkbox} />
-          <p className={style.listText}>{todo}</p>
+          <p className={style.listText}>{todo.text}</p>
         </div>
 
         <button className="button">
